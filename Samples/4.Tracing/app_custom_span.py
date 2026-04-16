@@ -83,5 +83,5 @@ if query:
         
         span.add_event("Chat interaction complete")
 
-print(" Check AI Toolkit --> Tracing for telemetry data")
+print(" Check Foundry Toolkit --> Tracing for telemetry data")
 

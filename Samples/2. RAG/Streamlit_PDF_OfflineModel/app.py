@@ -1,4 +1,4 @@
-# Tutorial for creating baseline RAG chatbot using AI Toolkit and Streamlit
+# Tutorial for creating baseline RAG chatbot using Foundry Toolkit and Streamlit
 
 # Importing required libraries
 import streamlit as st
@@ -24,7 +24,7 @@ load_db = Chroma(persist_directory='./ai-toolkit', embedding_function=embeddings
 retriever = load_db.as_retriever(search_kwargs={'k': 3})
 
 # Defining the template
-template = """ You are a specialized AI assistant for the Microsoft Visual Studio Code AI Toolkit.\n
+template = """ You are a specialized AI assistant for the Microsoft Visual Studio Code Foundry Toolkit.\n
     Your responses should be strictly relevant to this product and the user's query. \n
     Avoid providing information that is not directly related to the toolkit.
     Maintain a professional tone and ensure your responses are accurate and helpful.
@@ -46,8 +46,8 @@ setup_and_retrieval = RunnableParallel(
 chain = setup_and_retrieval | prompt | model | output_parser
 
 # Streamlit app
-st.title("AI Toolkit Chatbot")
-st.write("Ask me anything about the Microsoft Visual Studio Code AI Toolkit.")
+st.title("Foundry Toolkit Chatbot")
+st.write("Ask me anything about the Microsoft Visual Studio Code Foundry Toolkit.")
 
 # user session
 if 'messages' not in st.session_state:

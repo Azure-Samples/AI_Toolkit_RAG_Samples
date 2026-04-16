@@ -2,12 +2,12 @@
 
 **Duration**: 10 mins
 
-This demo demonstrates how to create an AI agent with tools from an MCP (Model Context Protocol) server using the [AI Toolkit](https://aka.ms/AITookit) extension for Visual Studio Code. It includes step-by-step instructions for setting up the environment, adding the GPT-4o model, configuring an MCP server, and integrating tools into the agent. The demo also covers creating system prompts, running the agent, structuring model output, and saving results to a file system.
+This demo demonstrates how to create an AI agent with tools from an MCP (Model Context Protocol) server using the [Foundry Toolkit](https://aka.ms/foundrytk) extension for Visual Studio Code. It includes step-by-step instructions for setting up the environment, adding the GPT-4o model, configuring an MCP server, and integrating tools into the agent. The demo also covers creating system prompts, running the agent, structuring model output, and saving results to a file system.
 
 ## Prerequisites
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [AI Toolkit for Visual Studio Code](https://aka.ms/AIToolkit)
+- [Foundry Toolkit for Visual Studio Code](https://aka.ms/foundrytk)
 - [GitHub Fine-grained personal access token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token)
 
 ## Setup Instructions
@@ -16,7 +16,7 @@ This demo demonstrates how to create an AI agent with tools from an MCP (Model C
 
 The demo leverages the **GPT-4o** model as the chosen model for the agent. The model should be added to **My Models** before running the demo.
 
-1. Open the **AI Toolkit** extension from the **Activity Bar**.
+1. Open the **Foundry Toolkit** extension from the **Activity Bar**.
 1. In the **Catalog** section, select **Models** to open the **Model Catalog**. Selecting **Models** opens the **Model Catalog** in a new editor tab.
 1. In the **Model Catalog** search bar, enter **OpenAI GPT-4o**.
 1. Click **+ Add** to add the model to your **My Models** list. Ensure that you've selected the model that's **Hosted by GitHub**.
@@ -37,13 +37,13 @@ Provided below is an example of the command:
 
 ## Running the Demo
 
-In this demo, you’ll show how to build, run, and enhance an AI agent inside Visual Studio Code using the AI Toolkit. This walkthrough covers prompt authoring, memory simulation, tool integration via MCP servers, and structured output—all within a single, cohesive workflow.
+In this demo, you’ll show how to build, run, and enhance an AI agent inside Visual Studio Code using the Foundry Toolkit. This walkthrough covers prompt authoring, memory simulation, tool integration via MCP servers, and structured output—all within a single, cohesive workflow.
 
 ### Create an agent
 
 Start by introducing your audience to the **Agent (Prompt) Builder**—a space where they can create and customize their own AI-powered agents. In this section, you’ll show the audience how to create a new agent, give it a name, and assign a model like GPT-4o to power the conversation.
 
-1. Open the **AI Toolkit** extension from the **Activity Bar**.
+1. Open the **Foundry Toolkit** extension from the **Activity Bar**.
 1. In the **Tools** section, select **Agent (Prompt) Builder**. Selecting **Agent (Prompt) Builder** opens the **Agent (Prompt) Builder** in a new editor tab.
 1. Click the **+ New Builder** button. The extension will launch a setup wizard via the **Command Palette**.
 1. Enter the name **Content Agent** and press **Enter**.
@@ -118,7 +118,7 @@ Up to this point, your output has been unstructured text. This final section dem
 1. Review the **Model Response** to validate the json schema format.
 
 ## Clean-up
-1. In the **AI Toolkit** panel (Side Bar), in the **Tools** section, select **Agent (Prompt) Builder**.
+1. In the **Foundry Toolkit** panel (Side Bar), in the **Tools** section, select **Agent (Prompt) Builder**.
 1. At the top left of the **Agent (Prompt) Builder**, select the **Recent** button.
 1. Select the **trash** icon next to the agent.
 1. In the **Confirm Prompt Deletion** pop-up, select **Delete**.

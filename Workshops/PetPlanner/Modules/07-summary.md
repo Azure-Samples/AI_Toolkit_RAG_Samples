@@ -1,6 +1,6 @@
 # Summary
 
-You’ve completed the **GitHub Copilot & AI Toolkit Pet Planner Workshop** — creating a smart, friendly agent that plans pet playdates using data and AI reasoning.
+You’ve completed the **GitHub Copilot & Foundry Toolkit Pet Planner Workshop** — creating a smart, friendly agent that plans pet playdates using data and AI reasoning.
 Along the way, you learned how to design, configure, generate, trace, and evaluate an AI-powered workflow.
 
 ## Next steps
@@ -10,7 +10,7 @@ Your Pet Planner is ready to sniff out playdates — and you’re ready to build
 
 | Topic                            | Description                                                              | Link                                                      |
 | -------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------- |
-| **AI Toolkit for VS Code**       | Build, test, and manage AI agents directly in your editor.               | [AI Toolkit](https://aka.ms/AIToolkit) |
+| **Foundry Toolkit for VS Code**       | Build, test, and manage AI agents directly in your editor.               | [Foundry Toolkit](https://aka.ms/foundrytk) |
 | **GitHub Copilot Chat**          | Learn how to prompt and collaborate effectively with Copilot in VS Code. | [Copilot Chat Docs](https://docs.github.com/copilot)      |
 | **Model Context Protocol (MCP)** | Understand how agents access live data securely.                         | [MCP Overview](https://aka.ms/mcp-for-beginners)               |
 | **Agent Evaluation & Tracing**   | Learn advanced debugging and evaluation workflows.                       | [Observability in Generative AI](https://learn.microsoft.com/azure/ai-foundry/concepts/observability)       |

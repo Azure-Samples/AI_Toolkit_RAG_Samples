@@ -1,6 +1,6 @@
 # 💬 Traced LLM Chat App (Streamlit & OpenTelemetry)
 
-A basic Streamlit chat application demonstrating **OpenTelemetry** tracing integration for different Large Language Model (LLM) providers. It provides two main options for instrumenting an LLM chat flow to send telemetry data (traces and logs) to an OTLP endpoint (e.g., AI Toolkit, or an observability platform).
+A basic Streamlit chat application demonstrating **OpenTelemetry** tracing integration for different Large Language Model (LLM) providers. It provides two main options for instrumenting an LLM chat flow to send telemetry data (traces and logs) to an OTLP endpoint (e.g., Foundry Toolkit, or an observability platform).
 
 ---
 
@@ -18,9 +18,9 @@ A basic Streamlit chat application demonstrating **OpenTelemetry** tracing integ
 ### Prerequisites
 
 1.  **Python Environment:** Python 3.8+
-2.  **Observability Backend:** A local OTLP collector (e.g., AI Toolkit) running on `http://localhost:4318` to receive traces/logs.
+2.  **Observability Backend:** A local OTLP collector (e.g., Foundry Toolkit) running on `http://localhost:4318` to receive traces/logs.
 3.  **LLM Backend:**
-    * **Option 1:** A locally running model exposing an OpenAI-compatible endpoint (e.g., via **Foundry Local** or **AI Toolkit**).
+    * **Option 1:** A locally running model exposing an OpenAI-compatible endpoint (e.g., via **Foundry Local** or **Foundry Toolkit**).
     * **Option 2:** Access to the Azure AI Inference API, requiring a `GITHUB_TOKEN` for authentication.
 
 ### Installation
@@ -83,6 +83,6 @@ The provided code file contains three main sections, all commented out. **Choose
 
 Once the application is running and you interact with the chat:
 
-1.  Check the logs of your **OTLP Collector** (on AI Toolkit) running on `http://localhost:4318`.
+1.  Check the logs of your **OTLP Collector** (on Foundry Toolkit) running on `http://localhost:4318`.
 2.  The traces will be visible, showing the `chat_interaction` (if used), `llm_completion` (if used), and the automatic **`openai.chat.completions.create`** or **`azure.ai.inference.chat_completions.complete`** span, providing details like latency, model name, and message content.
 

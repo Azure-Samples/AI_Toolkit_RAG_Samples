@@ -7,7 +7,7 @@ Model Content Protocol (MCP) servers allow agents to fetch live or contextual da
 
 ## 🧩 Instructions
 
-1. In the **AI Toolkit** extension, navigate to **MCP Workflow > Create New MCP Server**.
+1. In the **Foundry Toolkit** extension, navigate to **MCP Workflow > Create New MCP Server**.
 1. For **Select MCP Server Template**, select **python-weather**.
 1. For **Select Folder**, select the **Default folder**.
 1. For **Enter MCP Server Name**, enter: `pet-planner`
@@ -16,10 +16,10 @@ Model Content Protocol (MCP) servers allow agents to fetch live or contextual da
 1. In the terminal, run the command `uv venv` to create a virtual environment.
 1. Next, activate the virtual environment via the command palette. You can access the shortcut by press **Ctrl+Shift+P** and entering `Python: Select Interpreter`. Next, select the virtual environment that you just created (ex: `Python 3.10.19 (pet-planner) .\.venv\Scripts\python.exe)`).
 1. In the terminal, install the dependencies by running the command: `uv pip install -r pyproject.toml --extra dev`
-1. In the [AI_Toolkit_Samples](https://aka.ms/AIToolkit/workshop) repo, navigate to **AI_Toolkit_Samples/Workshops/PetPlanner**. Open the `pet-planner-server.py` file and copy the content of the file.
+1. In the [AI_Toolkit_Samples](https://aka.ms/foundrytk/workshop) repo, navigate to **AI_Toolkit_Samples/Workshops/PetPlanner**. Open the `pet-planner-server.py` file and copy the content of the file.
 1. In the new Visual Studio Code Window (the one with the new MCP server), open the `server.py` file (location: `src/server.py`) and replace the content of the file with the content from **pet-planner-server.py**. Save the file.
 1. Click the **Run and Debug** icon (i.e. on the left under **Source Control**). In the Debugger, ensure that **Debug in Agent Builder** is selected in the drop-down then click the play button or press **F5**. The debugger will start and the **Agent Builder** will open.
-1. You will need to select the **Pet Planner** agent for the **Agent Builder**. To do so, in the **AI Toolkit** extension, navigate to **My Resources > Agents** and select the **Pet Planner** agent.
+1. You will need to select the **Pet Planner** agent for the **Agent Builder**. To do so, in the **Foundry Toolkit** extension, navigate to **My Resources > Agents** and select the **Pet Planner** agent.
 1. In the **Agent Builder**, ensure that the **gpt-4.1-mini Remote via Microsoft Foundry** model is selected.
 1. Within the **Tool** section, click the **+** button and select **MCP Server**. 
 1. Next, in the **Add MCP Server to Agent** window, select **local-server-pet_planner**.

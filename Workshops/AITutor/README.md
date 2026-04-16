@@ -47,7 +47,7 @@
     ┌─────────▼──────────────────────────────────┐
     │         Telemetry Backends (optional)       │
     │  • Console (always on)                      │
-    │  • OTLP → Jaeger / VS Code AI Toolkit       │
+    │  • OTLP → Jaeger / VS Code Foundry Toolkit       │
     │  • Azure Monitor → Application Insights     │
     └────────────────────────────────────────────┘
 ```
@@ -60,7 +60,7 @@
 
 - Python 3.10+
 - OpenAI API key **or** Azure OpenAI credentials
-- (Optional) Jaeger / VS Code AI Toolkit for OTLP traces
+- (Optional) Jaeger / VS Code Foundry Toolkit for OTLP traces
 
 ### 1. Configure environment
 
@@ -164,13 +164,13 @@ invoke_agent EvaluatorAgent                   [ai_tutor.evaluate_answer span]
 
 ---
 
-## Observability Setup — VS Code AI Toolkit
+## Observability Setup — VS Code Foundry Toolkit
 
-1. Install **VS Code AI Toolkit** extension
+1. Install **VS Code Foundry Toolkit** extension
 2. Enable the built-in OTLP collector (listens on `localhost:4317`)
 3. Set `OTLP_ENDPOINT=http://localhost:4317` in `.env`
 4. Set `ENABLE_SENSITIVE_DATA=true` to capture prompts/responses in spans
-5. Restart the backend — traces appear in the AI Toolkit panel
+5. Restart the backend — traces appear in the Foundry Toolkit panel
 
 ---
 

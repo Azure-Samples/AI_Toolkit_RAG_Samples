@@ -1,6 +1,6 @@
 # 🐕 Module 4: Generate Agent Code
 
-You’ve used the AI Toolkit (AITK) so far to quickly prototype and test your agent’s behavior.
+You’ve used the Foundry Toolkit (AITK) so far to quickly prototype and test your agent’s behavior.
 Now, it’s time to move from a low-code prototype to a code-first workflow — giving you full control over your agent’s logic, structure, and integration.
 
 Generating agent code allows you to:
@@ -26,10 +26,10 @@ Generating agent code allows you to:
 
 ## 🔍 What’s Happening
 
-The AI Toolkit’s prototype definitions are now being translated into executable code.
+The Foundry Toolkit’s prototype definitions are now being translated into executable code.
 This marks a key transition:
 
-- The AI Toolkit was ideal for prototyping — testing logic, tuning behavior, and exploring ideas quickly.
+- The Foundry Toolkit was ideal for prototyping — testing logic, tuning behavior, and exploring ideas quickly.
 - The code-first workflow empowers you to develop, debug, and extend your agent using standard development practices.
 
 You now have full flexibility to:

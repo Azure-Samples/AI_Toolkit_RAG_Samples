@@ -18,7 +18,7 @@ model=ChatOpenAI(
 load_db=Chroma(persist_directory='./ai-toolkit',embedding_function=embeddings)
 retriever=load_db.as_retriever(search_kwargs={'k':3})
 
-template = """ You are a specialized AI assistant for the Microsoft Visual Studio Code AI Toolkit.\n
+template = """ You are a specialized AI assistant for the Microsoft Visual Studio Code Foundry Toolkit.\n
     Your responses should be strictly relevant to this product and the user's query. \n
     Avoid providing information that is not directly related to the toolkit.
     Maintain a professional tone and ensure your responses are accurate and helpful.

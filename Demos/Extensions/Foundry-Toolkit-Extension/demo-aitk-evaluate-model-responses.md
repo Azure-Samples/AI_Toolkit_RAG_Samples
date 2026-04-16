@@ -2,23 +2,23 @@
 
 **Duration**: 10 mins
 
-This demo focuses on evaluating AI model responses using the [AI Toolkit](https://aka.ms/AITookit) extension for Visual Studio Code. It demonstrates how to set up and run evaluations, create custom evaluators, and analyze results. The demo leverages the GPT-4o model as a judge for evaluations and provides step-by-step instructions for configuring evaluators, importing datasets, and reviewing evaluation outcomes.
+This demo focuses on evaluating AI model responses using the [Foundry Toolkit](https://aka.ms/foundrytk) extension for Visual Studio Code. It demonstrates how to set up and run evaluations, create custom evaluators, and analyze results. The demo leverages the GPT-4o model as a judge for evaluations and provides step-by-step instructions for configuring evaluators, importing datasets, and reviewing evaluation outcomes.
 
 ## Prerequisites
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [AI Toolkit for Visual Studio Code](https://aka.ms/AIToolkit)
+- [Foundry Toolkit for Visual Studio Code](https://aka.ms/foundrytk)
 - [GitHub Fine-grained personal access token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token)
 
 ## Setup Instructions
 
-This section takes you through the steps for showcasing how the AI Toolkit helps evaluate model outputs using built-in and custom evaluation tools. You’ll guide the audience through setting up evaluations, creating custom evaluators, and analyzing results—all within Visual Studio Code.
+This section takes you through the steps for showcasing how the Foundry Toolkit helps evaluate model outputs using built-in and custom evaluation tools. You’ll guide the audience through setting up evaluations, creating custom evaluators, and analyzing results—all within Visual Studio Code.
 
 ### Add the OpenAI GPT-4o model
 
 The demo leverages the **GPT-4o** model as the model judge for evaluations. The model should be added to **My Models** before running the demo.
 
-1. Open the **AI Toolkit** extension from the **Activity Bar**.
+1. Open the **Foundry Toolkit** extension from the **Activity Bar**.
 1. In the **Catalog** section, select **Models** to open the **Model Catalog**. Selecting **Models** opens the **Model Catalog** in a new editor tab.
 1. In the **Model Catalog** search bar, enter **OpenAI GPT-4o**.
 1. Click **+ Add** to add the model to your **My Models** list. Ensure that you've selected the model that's **Hosted by GitHub**.
@@ -30,7 +30,7 @@ The demo leverages the **GPT-4o** model as the model judge for evaluations. The 
 
 In this section, you’ll take the audience through how to set up and run a standard evaluation using built-in evaluators. This helps demonstrate how developers can assess the quality of model outputs using tools like Likert scoring, pass/fail thresholds, or retrieval accuracy—all without leaving VS Code.
 
-1. Open the **AI Toolkit** extension from the **Activity Bar**.
+1. Open the **Foundry Toolkit** extension from the **Activity Bar**.
 1. In the **Tools** section, select **Evaluation**. Selecting the **Evaluation** tool opens it in a new editor tab.
 1. In the **Overview** tab of the **Evaluation** editor, click the **+ New Evaluation** button. The extension will launch a setup wizard via the **Command Palette**.
 1. Enter the name **demo-evaluation** and press **Enter**.
@@ -74,5 +74,5 @@ In this final section, you’ll demonstrate how to use the custom evaluator crea
 1. Review the evaluation results.
 
 ## Clean-up
-1. In the **AI Toolkit** panel (Side Bar), in the **Tools** section, select **Evaluation**.
+1. In the **Foundry Toolkit** panel (Side Bar), in the **Tools** section, select **Evaluation**.
 1. In the **Overview** tab of the **Evaluation** editor, check the boxes next to the **demo-evaluation** and **cta-evaluation** evaluation runs and click the **Delete** button.

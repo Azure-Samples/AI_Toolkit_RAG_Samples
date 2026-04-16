@@ -4,7 +4,7 @@ Agents connect your model with logic and personality. They define how your AI in
 
 ## 🧩 Instructions
 
-1. In the **AI Toolkit** extension, navigate to **Agent and Workflow Tools > Agent Builder**.
+1. In the **Foundry Toolkit** extension, navigate to **Agent and Workflow Tools > Agent Builder**.
 1. In the **Agent Builder**, for the **Agent Name** enter: `Pet Planner`
 1. For the **Model** drop-down, select **gpt-4.1-mini Remote via Microsoft Foundry**.
 1. For the **Instructions**, enter the **Agent System Prompt** provided below.

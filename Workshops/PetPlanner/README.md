@@ -1,11 +1,11 @@
 # 🐾 Pet Planner Workshop
 
-Welcome to the **GitHub Copilot & AI Toolkit Pet Planner Workshop!**  
+Welcome to the **GitHub Copilot & Foundry Toolkit Pet Planner Workshop!**  
 
 In this hands-on session, you’ll create an intelligent agent that plans the perfect pet playdate by checking the weather, fetching activity ideas, and finding nearby pet-friendly spots.
 
 > [!NOTE]
->This is a **60-minute** workshop that will give you hands-on experience with the AI Toolkit (AITK) and GitHub Copilot Agent Mode in Visual Studio Code to create an AI agent.
+>This is a **60-minute** workshop that will give you hands-on experience with the Foundry Toolkit (AITK) and GitHub Copilot Agent Mode in Visual Studio Code to create an AI agent.
 
 ---
 

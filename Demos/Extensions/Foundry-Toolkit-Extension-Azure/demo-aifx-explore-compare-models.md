@@ -2,13 +2,13 @@
 
 **Duration**: 5 mins
 
-This demo showcases how to explore, deploy, and interact with AI models using the [Azure AI Foundry](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.vscode-ai-foundry) extension and the [AI Toolkit](https://aka.ms/AITookit) extension for Visual Studio Code. It provides step-by-step instructions for setting up the environment, browsing the model catalog, deploying models to Azure, and using the Playground to chat with models. The demo also covers comparing model responses, generating sample code for programmatic interaction, and managing model deployments, offering a comprehensive guide for leveraging Azure AI Foundry in AI development workflows.
+This demo showcases how to explore, deploy, and interact with AI models using the [Azure AI Foundry](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.vscode-ai-foundry) extension and the [Foundry Toolkit](https://aka.ms/foundrytk) extension for Visual Studio Code. It provides step-by-step instructions for setting up the environment, browsing the model catalog, deploying models to Azure, and using the Playground to chat with models. The demo also covers comparing model responses, generating sample code for programmatic interaction, and managing model deployments, offering a comprehensive guide for leveraging Azure AI Foundry in AI development workflows.
 
 ## Prerequisites
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Azure AI Foundry extension](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.vscode-ai-foundry)
-- [AI Toolkit for Visual Studio Code](https://aka.ms/AIToolkit)
+- [Foundry Toolkit for Visual Studio Code](https://aka.ms/foundrytk)
 - [An existing Azure AI Foundry project](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/create-projects?tabs=ai-studio) with a `o4-mini` deployment (note: The extension interacts with Azure AI Foundry at the project level.)
 
 ## Setup Instructions

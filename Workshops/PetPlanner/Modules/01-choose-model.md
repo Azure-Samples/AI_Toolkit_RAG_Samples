@@ -9,7 +9,7 @@ The model determines how your agent thinks and responds. You’ll choose a model
 1. Click the **Pick Model** drop-down and select **Claude Sonnet 4.5**.
 1. In the chat window, enter the **GitHub Copilot Prompt** provided below and submit.
 1. Review the response from GitHub Copilot. Given the non-deterministic nature of language models, responses will vary.
-1. If GitHub Copilot requests to open the **Model Catalog**, respond with **Yes** OR click the provided button to access the **Model Catalog**. Alternatively, you can open the **AI Toolkit** extension and navigate to **Model Tools > Model Catalog**.
+1. If GitHub Copilot requests to open the **Model Catalog**, respond with **Yes** OR click the provided button to access the **Model Catalog**. Alternatively, you can open the **Foundry Toolkit** extension and navigate to **Model Tools > Model Catalog**.
 1. In the **Model Catalog** select the **Hosted by** drop-down and select **GitHub**.
 1. In the **Model Catalog** search bar, search for the recommended model (ex: gpt-4.1-mini). Once the model is found, click **Try in Playground**.
 1. If prompted to sign-in to GitHub, select **Allow**. For **Select user to authorize** click **Continue** next to the username. Next, for **Visual Studio Code is requesting additional permissions**, select **Authorize Visual-Studio-Code**. After sign-in is complete, select **Open** to open Visual Studio Code.
@@ -33,7 +33,7 @@ GitHub Copilot calls 1 tool:
 - Get AI Model Guidance
 
 > [!NOTE]
->If GitHub Copilot doesn't invoke the AI Toolkit tools when generating it's response, you can enter `#aitk` in the chat window to explicitly select which tool(s) you'd like GitHub Copilot to use prior to submitting your prompt.
+>If GitHub Copilot doesn't invoke the Foundry Toolkit tools when generating it's response, you can enter `#aitk` in the chat window to explicitly select which tool(s) you'd like GitHub Copilot to use prior to submitting your prompt.
 
 ## ✅ Checkpoint
 

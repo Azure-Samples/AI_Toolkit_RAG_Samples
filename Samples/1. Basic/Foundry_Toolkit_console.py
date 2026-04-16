@@ -1,4 +1,4 @@
-#Tutorial to connect with the VS Code AI Toolkit 
+#Tutorial to connect with the VS Code Foundry Toolkit 
 
 # Import the OpenAI class from the openai module
 from openai import OpenAI
